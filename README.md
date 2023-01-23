@@ -42,3 +42,53 @@ git push --tag
 | Adrián | [Enlace a github](https://github.com/areyjim770/git_2_asir.git) |
 | David | [Enlace a github](https://github.com/Davalomal/Git_2_asir.git) |
 | Mario | [Enlace a github](https://github.com/Mromvar767/git_2_asir.git) |
+
+git commit -m 'Añadimos la README.md con la tabla de compañeros' README.md
+
+git push
+
+git branch v0.2
+
+git branch
+
+touch fichero2.txt
+
+git add fichero2.txt
+
+git commit -m 'Subimos el fichero2.txt a la rama v0.2'
+
+git push --set-upstream origin v0.2
+
+git checkout master
+
+git merge v0.2
+
+nano 1.txt
+
+git commit -m "Escribir 'Hola' en 1.txt" 1.txt
+
+git checkout v0.2
+
+nano 1.txt
+
+git commit -m "Escribir 'Adios' en 1.txt" 1.txt
+
+git checkout master
+
+git merge v0.2
+
+nano 1.txt
+
+git add 1.txt
+
+git commit -m 'Solucionamos el conflicto en 1.txt'
+
+git push
+
+git tag v0.2
+
+git branch -D v0.2
+
+git log
+
+
