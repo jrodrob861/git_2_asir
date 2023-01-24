@@ -91,4 +91,32 @@ git branch -D v0.2
 
 git log
 
+git commit -m 'Actualizando README.md' README.md
+
+git push
+
+git push --tag
+
+nano equipo.md
+
+git clone git@github.com:jrodrob861/git_2_asir-1.git
+
+git branch nacho
+
+git clone git@github.com:jrodrob861/git_2_asir-2_adri.git
+
+git branch nacho
+
+git checkout adri
+
+nano equipo.md
+
+git checkout nacho
+
+nano equipo.md
+
+git commit -m 'Editamos equipo.md' equipo.md
+
+git push --set-upstream origin nacho
+
 
